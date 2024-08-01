@@ -1,0 +1,11 @@
+console:
+  max_message_size_bytes: 409600
+logger:
+  level: "info"
+session:
+  token_expiry_sec: 7200 # 2 hours
+  single_socket: true
+  single_match: true
+socket:
+  max_message_size_bytes: 131072 # reserved buffer
+  max_request_size_bytes: 131072

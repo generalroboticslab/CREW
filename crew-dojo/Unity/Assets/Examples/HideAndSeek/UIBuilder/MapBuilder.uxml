@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; justify-content: flex-end; align-items: flex-start;">
+        <ui:VisualElement style="background-color: rgba(255, 255, 255, 0.6); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">
+            <ui:TextField picking-mode="Ignore" label="Width" text="10" max-length="3" mask-character="01234" name="Width" />
+            <ui:TextField picking-mode="Ignore" label="Height" text="10" max-length="3" mask-character="0,1,2,3,4" name="Height" />
+            <ui:TextField picking-mode="Ignore" label="Object Type" text="1" max-length="3" mask-character="0,1,2,3,4" name="Type" />
+            <ui:Button text="Copy Map" display-tooltip-when-elided="true" name="Copy" style="background-color: rgb(255, 255, 255); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; margin-left: 4px; margin-right: 4px; margin-top: 4px; margin-bottom: 4px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

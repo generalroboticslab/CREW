@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Dojo/UI/DojoMenuStyles.uss?fileID=7433441132597879392&amp;guid=3658b3618b51fd4429d074d07fd2de5a&amp;type=3#DojoMenuStyles" />
+    <ui:VisualElement name="StatusUI" style="position: absolute; width: 200px; height: 200px; margin-left: 0; margin-top: 0; background-color: rgba(255, 255, 255, 0.5); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; margin-right: 0; margin-bottom: 0; left: 10px; top: 10px; justify-content: space-around; overflow: hidden; padding-top: 5px; padding-bottom: 5px;">
+        <ui:Label text="Name" display-tooltip-when-elided="true" class="StatusLabel" />
+        <ui:Button text="name" display-tooltip-when-elided="true" name="StatusName" class="StatusInfo" />
+        <ui:Label text="Match ID" display-tooltip-when-elided="true" class="StatusLabel" />
+        <ui:Button text="match ID" display-tooltip-when-elided="true" name="StatusMatchID" class="StatusInfo" />
+        <ui:Label text="Role" display-tooltip-when-elided="true" class="StatusLabel" />
+        <ui:DropdownField index="-1" name="StatusRole" focusable="true" style="margin-left: 10px; margin-right: 10px; height: 14%; margin-top: auto; margin-bottom: auto;" />
+        <ui:Button display-tooltip-when-elided="true" name="StatusIndicator" class="IndicatorRed" />
+    </ui:VisualElement>
+    <ui:VisualElement name="ClientsUI" style="position: absolute; width: 200px; height: 200px; right: 10px; bottom: auto; top: 10px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; background-color: rgba(255, 255, 255, 0.5); padding-bottom: 5px; justify-content: space-around; overflow: hidden;">
+        <ui:Label text="Active Clients" display-tooltip-when-elided="true" style="padding-left: 2px; margin-left: 0; font-size: 16px; -unity-font-style: bold; -unity-text-align: middle-center; height: 12%; margin-top: auto; margin-bottom: auto; margin-right: 0; justify-content: flex-start;" />
+        <ui:ScrollView name="ClientsList" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Auto" style="height: 70%; margin-left: 10px; margin-right: 10px; margin-top: auto; margin-bottom: auto; background-color: rgba(255, 255, 255, 0.8); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; overflow: hidden; display: flex;" />
+        <ui:Toggle label="Show Players Only" name="ClientsDisplay" style="height: 10%; margin-left: 10px; margin-top: auto; margin-bottom: auto; margin-right: 10px; -unity-text-align: middle-left; -unity-font-style: normal; font-size: 14px; justify-content: space-between;" />
+    </ui:VisualElement>
+    <ui:VisualElement picking-mode="Ignore" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; align-items: center; justify-content: center; display: flex;">
+        <ui:VisualElement name="ConnectUI" style="position: relative; left: auto; right: auto; top: auto; bottom: auto; background-color: rgba(255, 255, 255, 0.5); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; justify-content: space-around; display: none; overflow: hidden; padding-top: 5px; padding-bottom: 5px; width: 300px; height: 250px;">
+            <ui:Label text="IP Address" display-tooltip-when-elided="true" class="ConnectLabel" />
+            <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="ConnectIP" class="ConnectInput" />
+            <ui:Label text="Name" display-tooltip-when-elided="true" class="ConnectLabel" />
+            <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="ConnectName" class="ConnectInput" />
+            <ui:Button text="Connect" display-tooltip-when-elided="true" name="ConnectButton" class="MainButton" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MatchesUI" style="position: relative; left: auto; right: auto; top: auto; bottom: auto; background-color: rgba(255, 255, 255, 0.5); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; display: none; overflow: hidden; padding-top: 5px; padding-bottom: 5px; justify-content: space-around; width: 300px; height: 400px;">
+            <ui:Label text="Match List" display-tooltip-when-elided="true" style="font-size: 20px; -unity-text-align: middle-center; -unity-font-style: bold; height: 5%; margin-top: auto; margin-bottom: auto; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:ScrollView name="MatchesList" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Auto" style="height: 75%; margin-left: 20px; margin-right: 20px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; background-color: rgba(255, 255, 255, 0.8); margin-top: auto; margin-bottom: auto; overflow: hidden;" />
+            <ui:Button text="Join Match" display-tooltip-when-elided="true" name="MatchesButton" class="MainButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

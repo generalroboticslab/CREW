@@ -1,0 +1,36 @@
+repos:
+- repo: https://github.com/floatingpurr/sync_with_poetry
+  rev: "0.4.0"
+  hooks:
+    - id: sync_with_poetry
+      args: []
+      files: ^CREW/crew-algorithms/
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+    -   id: check-toml
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+        files: ^CREW/crew-algorithms/
+-   repo: https://github.com/python-poetry/poetry
+    rev: 1.4.1
+    hooks:
+    -   id: poetry-check
+    -   id: poetry-lock
+        files: ^CREW/crew-algorithms/
+-   repo: https://github.com/PyCQA/isort
+    rev: 5.12.0
+    hooks:
+    -   id: isort
+        files: ^CREW/crew-algorithms/
+-   repo: https://github.com/psf/black
+    rev: 23.9.1
+    hooks:
+    -   id: black
+        files: ^CREW/crew-algorithms/
+-   repo: https://github.com/PyCQA/flake8
+    rev: 6.0.0
+    hooks:
+    -   id: flake8
+        files: ^CREW/crew-algorithms/

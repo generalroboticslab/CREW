@@ -1,0 +1,74 @@
+.Normal {
+    position: relative;
+    left: 0;
+    top: auto;
+    right: 0;
+    bottom: auto;
+    align-items: stretch;
+    background-color: rgb(82, 82, 82);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-text-align: middle-left;
+    white-space: nowrap;
+    flex-shrink: 1;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.Normal:hover {
+    position: relative;
+    left: 0;
+    top: auto;
+    right: 0;
+    bottom: auto;
+    align-items: stretch;
+    background-color: rgb(41, 41, 41);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-text-align: middle-left;
+    white-space: nowrap;
+    flex-shrink: 1;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.Clicked {
+    position: relative;
+    left: 0;
+    top: auto;
+    right: 0;
+    bottom: auto;
+    align-items: stretch;
+    background-color: rgb(99, 54, 54);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-text-align: middle-left;
+    white-space: nowrap;
+    flex-shrink: 1;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Dojo/UI/Feedback/FeedbackStyles.uss?fileID=7433441132597879392&amp;guid=ee375edeb92b5e643a3cd3b64aa31b6b&amp;type=3#FeedbackStyles" />
+    <ui:VisualElement name="DiscreteFeedbackArea" style="background-color: rgba(255, 255, 255, 0.4); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding-top: 5px; padding-bottom: 5px; flex-direction: column; justify-content: space-around; height: 160px; border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px;">
+        <ui:Button text="Positive" display-tooltip-when-elided="true" name="Positive" class="Button" />
+        <ui:Button text="Negative" display-tooltip-when-elided="true" name="Negative" class="Button" />
+    </ui:VisualElement>
+</ui:UXML>

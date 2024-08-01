@@ -1,0 +1,7 @@
+defaults:
+  - base_config
+  - envs: find_treasure
+  - _self_
+
+collector:
+  total_frames: 10000

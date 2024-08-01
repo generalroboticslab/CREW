@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="left: 0; right: 0; position: absolute; top: 0; bottom: 0; align-items: center; justify-content: center;">
+        <ui:VisualElement style="width: 150px; height: 150px; background-color: rgba(255, 255, 255, 0.5); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; justify-content: space-around; align-items: stretch;">
+            <ui:Button text="Hider" display-tooltip-when-elided="true" name="Hider" style="height: 40%; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-color: rgb(70, 140, 89); color: rgb(255, 255, 255); -unity-font-style: bold; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;" />
+            <ui:Button text="Seeker" display-tooltip-when-elided="true" name="Seeker" style="height: 40%; background-color: rgb(166, 90, 90); -unity-font-style: bold; color: rgb(255, 255, 255); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

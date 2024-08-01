@@ -1,0 +1,36 @@
+.Button {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 25%;
+}
+
+.Button:hover {
+    font-size: 20px;
+    background-color: rgb(161, 161, 161);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 25%;
+}
+
+.Button:active {
+    font-size: 20px;
+    background-color: rgb(60, 60, 60);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 25%;
+    color: rgba(255, 255, 255, 255);
+}

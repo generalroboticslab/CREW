@@ -1,0 +1,4 @@
+defaults:
+  - base_config
+  - envs: find_treasure
+  - _self_

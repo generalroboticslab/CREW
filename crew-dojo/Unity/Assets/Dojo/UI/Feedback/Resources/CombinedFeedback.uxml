@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="CombinedFeedbackArea" style="right: 0; bottom: -30px; position: absolute; width: 170px; height: 400px; font-size: 5px;">
+        <Dojo.UI.Feedback.DiscreteFeedback name="DiscreteFeedback" style="height: 117px; width: 170px;" />
+        <Dojo.UI.Feedback.ContinuousFeedback name="ContinuousFeedback" style="height: 250px; width: 170px;" />
+        <Dojo.UI.Feedback.TakeControl name="TakeControl" style="margin-top: 10px; font-size: 8px; height: 100px; width: 170px;" />
+    </ui:VisualElement>
+    <Dojo.UI.Feedback.WrittenFeedback height="300" name="CombinedFeedbackWrittenArea" style="position: absolute; left: 15px; top: 15px; right: 15px; bottom: 15px; display: none;" />
+</ui:UXML>

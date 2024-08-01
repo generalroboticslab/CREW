@@ -1,0 +1,3 @@
+defaults:
+  - /envs/base_hide_and_seek_1v1@_here_
+  - _self_

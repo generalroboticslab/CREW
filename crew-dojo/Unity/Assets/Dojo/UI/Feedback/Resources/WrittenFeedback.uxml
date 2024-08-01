@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Dojo/UI/Feedback/FeedbackStyles.uss?fileID=7433441132597879392&amp;guid=ee375edeb92b5e643a3cd3b64aa31b6b&amp;type=3#FeedbackStyles" />
+    <ui:VisualElement name="WrittenFeedbackArea" style="background-color: rgba(255, 255, 255, 0.4); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding-top: 5px; padding-bottom: 5px; justify-content: space-around; flex-direction: column; flex-grow: 1; flex-shrink: 0;">
+        <ui:TextField label="Summary Feedback" name="WrittenFeedbackInput" password="false" multiline="true" text="The agent did &quot;xxx&quot; well when it was in &quot;xxx&quot; situation. However, it could have done &quot;xxx&quot; better by taking &quot;xxx&quot; action instead." style="flex-wrap: wrap; -unity-text-align: upper-center; white-space: normal; font-size: 14px; flex-grow: 1; flex-direction: column;" />
+        <ui:Button text="Submit" display-tooltip-when-elided="true" name="Submit" class="Button" style="height: 45px;" />
+    </ui:VisualElement>
+</ui:UXML>

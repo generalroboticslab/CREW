@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: rgb(217, 173, 122); -unity-text-align: upper-left; justify-content: space-around;">
+        <ui:Label text="Waiting for game to start" display-tooltip-when-elided="true" style="align-items: stretch; -unity-text-align: upper-center; font-size: 28px; margin-top: 10px;" />
+        <ui:VisualElement style="flex-direction: row; justify-content: space-around; height: 40%; align-items: center; margin-top: 5%;">
+            <ui:VisualElement name="VisualElement" style="width: 200px; height: 200px; background-image: url(&apos;project://database/Assets/Examples/HideAndSeek/Textures/seeker.png?fileID=2800000&amp;guid=a18e239f32440ff4388e734a017cbf99&amp;type=3#seeker&apos;); -unity-background-scale-mode: scale-and-crop;" />
+            <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Examples/HideAndSeek/Textures/hider.png?fileID=2800000&amp;guid=620b5e5f69a31cc4ba4fd4eafd056435&amp;type=3#hider&apos;); width: 200px; height: 200px; -unity-background-scale-mode: scale-and-crop;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; justify-content: space-around; height: 10%; -unity-text-align: middle-left;">
+            <ui:Label text="0" display-tooltip-when-elided="true" name="SeekerCount" style="font-size: 20px; -unity-font-style: bold;" />
+            <ui:Label text="0" display-tooltip-when-elided="true" name="HiderCount" style="font-size: 20px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; justify-content: space-around; margin-top: 0; padding-top: 5px; padding-bottom: 5px;">
+            <ui:Button text="Seeker" display-tooltip-when-elided="true" name="Seeker" style="border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; font-size: 24px; background-color: rgb(164, 46, 46); color: rgb(255, 255, 255);" />
+            <ui:Button text="Hider" display-tooltip-when-elided="true" name="Hider" style="border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; font-size: 24px; background-color: rgb(41, 125, 36); color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,15 @@
+*.sln
+*.csproj
+*.vsconfig
+.vs/*
+[Ll]ogs/*
+[Oo]bj/*
+[Ll]ibrary/*
+UserSettings/*
+[Tt]emp/*
+[Bb]uild/*
+
+Assets/TextMesh Pro**
+Assets/UI Toolkit**
+
+MUJOCO_LOG.TXT

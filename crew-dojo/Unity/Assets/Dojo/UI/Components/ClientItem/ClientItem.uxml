@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Dojo/UI/Components/ClientItem/ClientItem.uss?fileID=7433441132597879392&amp;guid=cd28d1219ae5b1a41967aa5a3156c05d&amp;type=3#ClientItem" />
+    <ui:Button display-tooltip-when-elided="true" name="ItemButton" class="Normal" style="height: auto; padding-top: 5px; padding-bottom: 5px; margin-bottom: 5px;">
+        <ui:VisualElement style="flex-direction: row;">
+            <ui:Label text="Name" display-tooltip-when-elided="true" style="font-size: 12px; -unity-font-style: bold; color: rgb(255, 255, 255); margin-left: 4px; margin-top: auto; margin-bottom: auto; padding-left: 2px; width: 25%;" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Name" style="margin-left: 0; left: auto; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 4px; padding-right: 4px; padding-top: 2px; padding-bottom: 2px; right: auto; position: relative; width: 65%; background-color: rgb(255, 255, 255); font-size: 14px; -unity-text-align: middle-left; overflow: hidden;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; margin-top: 5px;">
+            <ui:Label text="Role" display-tooltip-when-elided="true" style="font-size: 12px; -unity-font-style: bold; color: rgb(255, 255, 255); margin-left: 4px; margin-top: auto; margin-bottom: auto; padding-left: 2px; width: 25%;" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Role" style="margin-left: 0; left: auto; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 4px; padding-right: 4px; padding-top: 2px; padding-bottom: 2px; right: auto; position: relative; width: 65%; background-color: rgb(255, 255, 255); font-size: 14px; -unity-text-align: middle-left; overflow: hidden;" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

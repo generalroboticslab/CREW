@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Dojo/UI/Components/MatchItem/MatchItem.uss?fileID=7433441132597879392&amp;guid=8ce722e137fb13241b62afe3a802e666&amp;type=3#MatchItem" />
+    <ui:Button display-tooltip-when-elided="true" name="ItemButton" class="Normal" style="margin-bottom: 5px;">
+        <ui:Label text="Match ID" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 12px; margin-left: 4px; padding-left: 2px; height: 15%; margin-bottom: auto; margin-top: auto;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="MatchID" style="background-color: rgb(255, 255, 255); margin-left: 6px; padding-left: 4px; font-size: 14px; padding-right: 4px; overflow: hidden; height: 20%; margin-top: auto; margin-bottom: auto; margin-right: 6px;" />
+        <ui:VisualElement style="height: 20%; flex-direction: row; margin-left: 4px; margin-right: 4px; margin-top: 4px; margin-bottom: 4px; -unity-text-align: middle-left;">
+            <ui:Label text="Active Players" display-tooltip-when-elided="true" style="font-size: 12px; -unity-font-style: bold; color: rgb(255, 255, 255); width: 40%;" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="NumPlayers" style="margin-left: 10%; background-color: rgb(255, 255, 255); width: 25%; -unity-text-align: middle-center; font-size: 12px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="height: 20%; flex-direction: row; margin-left: 4px; margin-right: 4px; margin-top: 4px; margin-bottom: 4px; -unity-text-align: middle-left;">
+            <ui:Label text="Num Clients" display-tooltip-when-elided="true" style="font-size: 12px; -unity-font-style: bold; color: rgb(255, 255, 255); width: 40%;" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="NumClients" style="margin-left: 10%; background-color: rgb(255, 255, 255); width: 25%; -unity-text-align: middle-center; font-size: 12px;" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

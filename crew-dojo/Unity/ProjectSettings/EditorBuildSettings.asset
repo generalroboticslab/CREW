@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Examples/TestScene/Scenes/TestScene.unity
+    guid: 0bf3f303091220b4ab0cc0f8538bcc86
+  - enabled: 0
+    path: Assets/Examples/Bowling/Scenes/Bowling.unity
+    guid: 3ef3d57235da1f7469f83e7262fef56a
+  - enabled: 0
+    path: Assets/Examples/Tetris/Scenes/Tetris.unity
+    guid: 379a1d1b538d81f47880ec7c753807d2
+  - enabled: 0
+    path: Assets/Examples/Humanoid/Scenes/Humanoid.unity
+    guid: 078becbf206c5784a93b73a6c889cc5c
+  - enabled: 0
+    path: Assets/Examples/FrankaEmikaPanda/Scenes/RobotArm.unity
+    guid: e62635a9ef8a6bb489f085ae068985b0
+  - enabled: 0
+    path: Assets/Examples/HideAndSeek/Scenes/HideAndSeek.unity
+    guid: ff0b19b03493e314fafb1178cdb6c258
+  - enabled: 0
+    path: Assets/Examples/Soccer/Scenes/SoccerTwos.unity
+    guid: f8055e5dfa04643559678426a82225c1
+  - enabled: 0
+    path: Assets/Examples/HideAndSeek1v1/Scenes/HideAndSeek_Single.unity
+    guid: 611cdc179196b4f0c9ab084570f513ec
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/Old/WallJump/Scenes/WallJump.unity
+    guid: b6425f5fd70f6174586968275752d463
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 0
+    path: Assets/Examples/WallJump/Scenes/WallJump.unity
+    guid: 56024e8d040d344709949bc88128944d
+  - enabled: 1
+    path: Assets/Examples/HideAndSeek_Single/Scenes/HideAndSeek_Single.unity
+    guid: 068488983d4602ba3b9cb46c8fd0d93b
+  - enabled: 1
+    path: Assets/Examples/FindTreasure/Scenes/FindTreasure.unity
+    guid: 68cc7c93ba9612733b8b3f3904ac33f7
+  m_configObjects: {}
