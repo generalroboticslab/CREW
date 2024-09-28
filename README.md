@@ -8,7 +8,7 @@
 CREW is a platform designed to facilitate Human-AI teaming research, engage collaborations from multiple scientific disciplines, with a strong emphasis on human involvement. It includes pre-built tasks for cognitive studies and Human-AI teaming with expandable potentials from our modular design. Following conventional cognitive neuroscience research, CREW also supports multimodal human physiological signal recording for behavior analysis. Moreover, CREW benchmarks real-time human-guided reinforcement learning agents using state-of-the-art algorithms and well-tuned baselines.
 
 # Authors
-[Lingyu Zhang](https://lingyu98.github.io/), Zhengran Ji, [Boyuan Chen](http://boyuanchen.com/).
+[Lingyu Zhang](https://lingyu98.github.io/), [Zhengran Ji](https://jzr01.github.io/), [Boyuan Chen](http://boyuanchen.com/).
 
 Duke University, [General Robotics Lab](http://generalroboticslab.com/)
 
