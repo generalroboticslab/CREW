@@ -82,9 +82,11 @@ def make_base_env(
         log_trajectory_arg = ["-LogTrajectory", "1"] if env_cfg.log_trajectory else ["-LogTrajectory", "0"]
 
 
-
+    map_args=[]
     if hasattr(env_cfg, "map_size"):
         map_args = ["-MapSize", f"{env_cfg.map_size}"]
+        
+    seed_args = []
     if hasattr(env_cfg, "seed"):
         seed_args = ["-Seed", f"{env_cfg.seed}"]
 
@@ -96,22 +98,24 @@ def make_base_env(
     maze_args = []
     if hasattr(env_cfg, "rand_maze"):
         maze_args = ["-RandMaze", "1"] if env_cfg.rand_maze else ["-RandMaze", "0"]
-
+        
+    algorithm_args = []
     if hasattr(env_cfg, "algorithm"):
          algorithm_args = ["-Algorithm", env_cfg.algorithm]
 
+    render_folder_path_args = []
     if hasattr(env_cfg, "render_folder_path"):
          render_folder_path_args = ["-RenderFolderPath", str(env_cfg.render_folder_path)]
 
+    timestamp_args = []
     if hasattr(env_cfg, "timestamp"):
          timestamp_args = ["-Timestamp", str(env_cfg.timestamp)]
 
-         
+    level_args = []
     if hasattr(env_cfg, "level"):
          level_args = ["-Level", env_cfg.level]
 
-
-
+    game_args = []
     if hasattr(env_cfg, "game_type"):
         game_args = [
             "-GameType", f"{env_cfg.game_type}",
