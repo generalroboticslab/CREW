@@ -89,6 +89,16 @@ def compile_split_screen_video(base_folder, output_video_path, frame_rate=20):
 
 
 if __name__ == "__main__":
-    folder_path = "./crew-algorithms\crew_algorithms\wildfire_alg\\results\logs\CAMON\Cut_Trees_Sparse_small\\483\\2025-05-30-16-18-19"
-    output_path = f"{folder_path}\combined_output.mp4"
+    folder_path = (
+        Path("crew-algorithms")
+        / "crew_algorithms"
+        / "wildfire_alg"
+        / "results"
+        / "logs"
+        / "CAMON"
+        / "Cut_Trees_Sparse_small"
+        / "483"
+        / "2025-05-30-16-18-19"
+    )
+    output_path = folder_path / "combined_output.mp4"
     compile_split_screen_video(folder_path, output_path)

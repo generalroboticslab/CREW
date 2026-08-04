@@ -12,6 +12,7 @@ import datetime
 import csv
 import certifi
 from crew_algorithms.wildfire_alg.data.render_logs import compile_split_screen_video
+from crew_algorithms.wildfire_alg.core.paths import build_results_path
 
 
 
@@ -92,7 +93,7 @@ def wildfire_alg(cfg: Config):
     os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
     api_key = os.environ['OPENAI_API_KEY']
     os.environ["SSL_CERT_FILE"] = certifi.where()
-    path = os.path.join("results\logs\Embodied", level, str(seed), cfg.envs.timestamp)
+    path = build_results_path("Embodied", level, seed, cfg.envs.timestamp)
     os.makedirs(path, exist_ok=True)
     
     agents = []
