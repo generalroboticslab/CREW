@@ -1,6 +1,6 @@
-import os
 from openai import OpenAI
 from crew_algorithms.wildfire_alg.algorithms.HMAS_2.__main__ import Config
+from crew_algorithms.wildfire_alg.core.paths import build_agent_chat_path
 from typing import List, Tuple, Dict
 
 class Agent:
@@ -40,7 +40,7 @@ class Agent:
         for source, content in messages:
             chat_string += f"{source}\n-----\n{content}\n-----\n\n"
         chat_string += "-"*20 + "\nEND CHAT\n\n"
-        filepath = os.path.join(self.path, f"Agent_{self.id}\\chats.txt")
+        filepath = build_agent_chat_path(self.path, self.id)
         with open(filepath, "a", encoding="utf-8") as file:
             file.write(chat_string)
         file.close()
